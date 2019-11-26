@@ -51,7 +51,9 @@ public class Maze {
 	}
 
 	////////////////////////////////////////////
-
+	
+	// NOTE: using StringBuilder is better than regular String in terms of Space-Complexity.
+	
 	public String toString() {
 
 		String s = "";
